@@ -1,0 +1,98 @@
+body {
+
+    background: linear-gradient(#e9cbef, #fcb8e6);
+    color: #ce003a;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    position: relative; 
+}
+img {
+    opacity: 0.9;
+}
+address a {
+    line-height: 2;
+    font-weight: 400;
+    color: white;
+    transition: all 300ms;
+}
+address a:hover {
+    color: #ce003a;
+    text-decoration: none;
+}
+.navbar-toggler {
+    border: none;
+    color: white;
+}
+.navbar-toggler:focus {
+    outline: 1px solid #ffffff7e;
+}
+.navbar.scrolled {
+    background: #ffb5bd;
+    transition: all 300ms;
+}
+.active {
+    background: #ffc9d0;
+}
+.blurb h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.blurb p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2;
+}
+.buyTickets {
+    border-radius: 0rem;
+    color: #ce003a;
+    border-color: white;
+}
+.buyTickets a {
+    text-decoration: none;
+    color: #ce003a;
+}
+.buyTickets a:hover {
+    text-decoration: none;
+    transition: all 300ms;
+}
+#mainNavbar {
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+#mainNavbar .nav-link {
+    color: white;
+    text-transform: uppercase;
+}
+#mainNavbar .nav-link:hover {
+    color: #ce003a;
+}
+#mainNavbar .navbar-brand {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #ce003a;
+}
+.navbar-brand span {
+    color: white;
+}
+#headingGroup span {
+    color: #ce003a;
+}
+#headingGroup h1 {
+    font-weight: 400;
+    font-size: 3.5rem;
+}
+#icons8Link a {
+    text-decoration: none;
+    font-size: 0.1rem;
+    color: #ffffff7e;
+}
+@media (max-width: 1400px) {
+    #headingGroup h1 {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 2.5rem;
+    }
+}
